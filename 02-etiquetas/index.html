@@ -8,19 +8,110 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Etiquetas html</title>
-  <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 </head>
 
 <body>
 
-  <nav></nav>
+  <!-- Estructuras de etiquetas en un documento de html 5 -->
+
+  <!-- Dentro de HTML5, tenemos muchas etiquetas  semanticas, que nos van ayudar a estructurar nuestro contenido: header, nav, main:section:articlesm, aside, footer-->
+
 
   <header>
-    <h1>ciber monday</h1>
+    <!-- cabecera:header -->
+    <h1>Etiquetas semanticas de html5</h1>
+    <!--Nota: el h1, es el encabezado principal de la pagina, y solo puedo tener uno solo, ya que si no sere castigado por el SEO -->
+
+    <p>Estoy <em>aprendiendo</em> <strong>HTML</strong></p>
+
+    Este es un texto ❌
+
+    <!-- En html yo puedo escribir texto fuera de etiquetas, lo que es altamente penado por el SEO. Ademas no le podre dar estilos personalizados (css) -->
+
+    <!-- em: em la utilizamos con el objetivo de enfatizar un texto dentro de html -->
+
+    <!-- strong: cuando queremos enfatizar aun mas, para remacar la importancia de cierta frase o palabra, podemos utilizar una etiqueta de mayor peso.  -->
+
+    <div>soy un texto en un div</div>
+
   </header>
 
-  <main></main>
+  <br>
+  <hr>
+  <br>
 
+  <nav>
+    <!-- Navegacion: Menu de navegacion -->
+    <!-- comprar: leche, huevo, carne, harina, fideos, -->
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li> <a href="https://htmlreference.io/">Ir a HTML References</a></li>
+      <li>Proyectos</li>
+    </ul>
+
+  </nav>
+
+  <br>
+  <hr>
+  <br>
+
+  <main>
+    <!-- Main contiene toodo el contendio importante de la pagina y solo se puede color un elemento por pagina, el mismo no puede ser descendite de otro elemento -->
+
+    <h2>Contenido principal</h2>
+
+    <br>
+
+    <section>
+      <!-- section: una section en html, es un elemento que se utiliza para agrupar y organizar contenido relacionado a una pagina web -->
+      <h2>titulo de un h2</h2>
+      <h3>titulo de un h3</h3>
+      <h4>titulo de un h4</h4>
+      <h5>titulo de un h5</h5>
+      <h6>titulo de un h6</h6>
+    </section>
+
+    <br>
+
+    <section>
+      <h3>Parrafos</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quidem natus vero quia ipsum dolor
+        corporis consequuntur eligendi, tempore obcaecati ut inventore, aliquid fuga neque necessitatibus facilis,
+        corrupti autem iure quo dicta tempora vitae saepe animi earum. Dolore ut cum incidunt atque recusandae iure
+        obcaecati pariatur, voluptatum ea, laudantium accusamus tempora harum saepe, consequuntur ullam! Rem earum
+        similique incidunt ips
+      </p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat ipsum illum laudantium corporis nam quia ab
+        minima inventore nobis nostrum quod dolore, reiciendis similique vitae?
+      </p>
+
+    </section>
+
+    <br>
+
+    <section>
+      <h3>Enlaces</h3>
+      <!-- Lo mas importante en un documento html, por no decir que lo mas importante en el mundo del intenet, son los ENLACES -->
+      <a href="https://htmlreference.io/" target="_blank"> ir a html </a>
+      <br>
+      <a href="https://htmlreference.io/"> ir a html </a>
+
+      <!-- atributuo target="_blank": se abre la pagina en una secundaria -->
+      <!-- atributuo target="_self": es el valor por default de la etiqueta a, hace que la misa se abra en la pagina principal, perdiendo asi al usuario que visito mi pagina. Colocar el atributo target con el valor self, es inecesario ,ya que es el valor por default -->
+      <br>
+      <h3>Enlaces a un documento de mi proyecto</h3>
+      <a href="./documento.html"> Ir al documento secundario</a>
+      <br>
+      <a href="./documento.html#resumen"> Ir a una parte especifica de mi documento</a>
+    </section>
+
+  </main>
+
+  <aside></aside>
+  <footer></footer>
 
 
 
