@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 
-
-
 <html lang="es">
 
 <head>
@@ -108,10 +106,222 @@
       <a href="./documento.html#resumen"> Ir a una parte especifica de mi documento</a>
     </section>
 
+    <br>
+
+    <section>
+      <h3>Enlaces a archivos</h3>
+      <a href="./assets/img/bg.png" target="_blank">Enlace a una imagen</a>
+
+      <br>
+
+      <a href="./assets/audio/audio.mp3" target="_blank"> Enlace a un audio</a>
+    </section>
+
+    <br>
+
+    <section>
+      <h3>Protocolos de URL, para enlaces</h3>
+
+      <a href="mailto:usuario@gmail.com">Enviar email 📩</a>
+
+      <br>
+
+      <a href="mailto:luis@gmail.com?subject=Deseo%20trabajar%20contigo">Enviar email a Luis 📩</a>
+
+      <br>
+      <a href="https://wa.me/+549352222222?text=tu%20%20mensaje" target="_blank"> Enviar por whatsapp</a>
+
+      <br>
+
+      <a href="tel:+5492222222">Clic para llamar 📲 </a>
+
+      <!-- el %20 representa el espacio -->
+
+    </section>
+
+    <br>
+
+    <section>
+      <h3>Listas 📃</h3>
+      <!-- Las listas en HTML nos permiten creacr conjutos de elementos en forma de listas, las cuales pueden ser ordenadas (1,2,3,4,...,n) y listas desordenadas que estan represtadas por default con un punto-->
+
+      <h4>Listas ordenadas</h4>
+
+      <ol>
+        <li>Comprar pan</li>
+        <li>Compro queso</li>
+        <li>Lechuga</li>
+        <li>Jamon</li>
+      </ol>
+
+
+      <ol start="3">
+        <li>Comprar pan</li>
+        <li>Compro queso</li>
+        <li>Lechuga</li>
+        <li>Jamon</li>
+      </ol>
+
+
+      <h4>Listas Desordenadas</h4>
+
+      <ul type="square">
+        <!-- unorder list -->
+        <li>Planchar la ropa</li>
+        <li>Visitar a mis seres queridos</li>
+      </ul>
+
+
+      <h4>Listas de definiciones</h4>
+
+      <dl>
+        <!-- dl: definition list -->
+        <dt>Elemento1</dt>
+        <dd> Descipcion del elemento1</dd>
+
+        <dt>Elemento2</dt>
+        <dd> Descipcion del elemento2</dd>
+
+        <dt>Atributos en HTML</dt>
+        <dd> Un atributo en una etoiqueta de html se coloca en la etiqueta de apertura, y se lo utiliza para modificar
+          el comportamiento original de la misma</dd>
+      </dl>
+
+
+    </section>
+
+    <br>
+
+    <section>
+      <h3>Tablas</h3>
+
+      <h4>Basica</h4>
+
+      <table border>
+
+        <tr>
+          <td>Fila1 columna1</td>
+          <td>Fila1 columna2</td>
+          <td>Fila1 columna3</td>
+        </tr>
+
+        <tr>
+          <td>Fila2 columna1</td>
+          <td>Fila2 columna2</td>
+          <td>Fila2 columna3</td>
+        </tr>
+
+        <tr>
+          <td>Fila3 columna1</td>
+          <td>Fila3 columna2</td>
+          <td>Fila3 columna3</td>
+        </tr>
+
+      </table>
+
+      <br>
+
+      <table border>
+
+        <tr>
+          <td>Verduleria</td>
+          <td>Carniceria</td>
+          <td>Alamacen</td>
+        </tr>
+
+        <tr>
+          <td>papa</td>
+          <td>bifes </td>
+          <td>lavandina</td>
+        </tr>
+
+        <tr>
+          <td>zanahoria</td>
+          <td>chorizos</td>
+          <td>jabon</td>
+        </tr>
+
+      </table>
+
+
+      <h4>Tabla con titulos</h4>
+
+      <table border>
+        <caption>Mi tabla de ejemplo</caption>
+
+        <tr>
+          <th>Columna1</th>
+          <th>Columna2</th>
+          <th>Columna3</th>
+        </tr>
+
+        <tr>
+          <td colspan="2">Fila2 columna1 y columna2</td>
+          <td>Fila2 columna3</td>
+
+        </tr>
+
+        <tr>
+          <td>Fila3 collumna1</td>
+          <td>Fila3 columna2</td>
+          <td>Fila3 columna3</td>
+        </tr>
+
+        <tr>
+          <td>Fila4 collumna1</td>
+          <td colspan="2">Fila4 columna2 y columna3</td>
+        </tr>
+
+      </table>
+    </section>
+
+    <br>
+
+    <section>
+      <h3>Contenido embebido</h3>
+
+      <h4>Imagenes</h4>
+      <img src="./assets/img/bg.png" alt="bg" width="80%">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Martha_Stewart_%2848926315347%29_%28cropped%29.jpg/435px-Martha_Stewart_%2848926315347%29_%28cropped%29.jpg"
+        alt="Martha" width="50%">
+
+      <video src="./assets/video/video.mp4" width="50%" muted loop controls poster="./assets/img/cover.jpg"
+        autoplay></video>
+    </section>
+
+    <br>
+
+    <section>
+      <h3>IFRAME</h3>
+
+      <iframe src="https://htmlreference.io/" frameborder="0" width="80%" height="315"></iframe>
+
+      <iframe src="./documento.html" frameborder="0"></iframe>
+
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/WK-KPDjlci0?si=vK3x1zt4ddNW9hms"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </section>
+
   </main>
 
-  <aside></aside>
-  <footer></footer>
+  <hr>
+
+  <aside>
+    <!-- Son elementos que no influyen en el contenido principal de ninguna pagina, pero si estan son de utilidad -->
+    <h3>soy un aside</h3>
+  </aside>
+
+  <hr>
+
+  <footer>
+    <!-- footer es el pie de la pagina -->
+    <h2>Pie de pagina</h2>
+    <p><small>es el pie del documento html5</small></p>
+  </footer>
 
 
 
